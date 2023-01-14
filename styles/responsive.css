@@ -4,7 +4,13 @@
 }
 /* extra-large-device */
 @media screen and (max-width:1200px) {
-    
+    .feature-container {
+        flex-wrap: wrap;
+    }
+    .feature-text{
+        width: 100%;
+        text-align: center;
+    }
 }
 /* large-deivce */
 @media screen and (max-width:992px) {
@@ -12,6 +18,7 @@
         font-size: 45px;
         line-height: 60px;
     }
+    
 }
 /* medium-device */
 @media screen and (max-width:768px) {
@@ -30,6 +37,12 @@
     .banner-text h3 {
         font-size: 34px;
         line-height: 46px;
+    }
+    .feature-img{
+        grid-template-columns: 1fr;
+    }
+    .feature-text{
+        text-align: center;
     }
     
 }
