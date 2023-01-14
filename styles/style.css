@@ -29,7 +29,15 @@
 }
 
 /* universal-container-style */
+/* universal-paragraph-style */
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--gray);
+}
 
+/* universal-paragraph-style */
 /* banner-section-style-start */
 .banner-section {
     background-color: var(--bg-color);
@@ -140,10 +148,6 @@ nav {
 
 .banner-text p {
     margin: 35px 0;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: var(--gray);
 }
 
 .banner-btn,
@@ -194,9 +198,16 @@ nav {
     grid-template-rows: repeat(2, 1fr);
     gap: 24px;
 }
-.feature-img img{
+
+.feature img {
     width: 100%;
+    transition: 0.2s;
 }
+
+.feature img:hover {
+    transform: scale(1.1);
+}
+
 .feature-text {
     width: 100%;
     max-width: 540px;
@@ -220,8 +231,102 @@ nav {
 
 .feature-text p {
     margin: 25px 0;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: var(--gray);
 }
+
+/* feature-section-end */
+/* one-sections-style-will-be-here-later */
+
+
+
+/* one-sections-style-will-be-here-later */
+
+/* facts-section-style-start */
+.facts-section {
+    padding-bottom: 180px;
+}
+
+.facts-header {
+    margin-bottom: 100px;
+    width: 100%;
+    max-width: 542px;
+}
+
+.facts-header h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black);
+}
+
+.facts-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 240px;
+    height: 240px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.facts:hover {
+    border: none;
+    box-shadow: 0px 0px 50px 0px #00000015;
+}
+
+.facts-icon {
+    width: 100%;
+}
+
+.facts h4 {
+    font-weight: 600;
+    font-size: 45px;
+    margin: 10px 0px 5px 0px;
+    color: var(--footer-color);
+}
+
+.facts p {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--gray);
+
+}
+
+/* facts-section-style-end */
+/* sponsors-section-style-start */
+.sponsors-section {
+    padding-bottom: 130px;
+}
+
+.sponsors-header h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black);
+}
+.sponsors-header p {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.sponsors-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.sponsors img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+/* sponsors-section-style-end */
