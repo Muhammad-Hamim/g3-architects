@@ -276,7 +276,9 @@ nav {
 .features:hover {
     background-color: var(--primary-color);
 }
-
+.feature-text{
+    width: 50%;
+}
 .features h4 {
     font-weight: 600;
     font-size: 20px;
@@ -288,13 +290,14 @@ nav {
 }
 
 .feature-img {
-    /* width: 100%; */
+    width: 50%;
+    max-width: auto;
     position: relative;
 }
 
 .feature-img img {
-    width: 100%;
-    max-width: 708px;
+    width: 708px;
+    max-width: 100%;
 }
 
 .feature-button {
