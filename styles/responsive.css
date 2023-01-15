@@ -24,7 +24,7 @@
         width: 100%;
     }
     .feature-img{
-        width: 100%;
+        width: auto;
     }
     .feature-button {
         padding: 30px;
@@ -49,6 +49,10 @@
         font-size: 45px;
         line-height: 60px;
     }
+    .our-team-container{
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
 }
 
 /* medium-device */
@@ -60,6 +64,7 @@
     .toggle-menu {
         display: block;
     }
+
 }
 
 /* small-device */
@@ -99,6 +104,9 @@
     }
     .feature-button p{
         font-size: 16px;
+    }
+    .our-team-header{
+        text-align: center;
     }
 
 }
