@@ -53,6 +53,15 @@
         flex-wrap: wrap;
         row-gap: 50px;
     }
+    .contact-container{
+        flex-wrap: wrap-reverse;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-content{
+        width: 100%;
+    }
 }
 
 /* medium-device */
@@ -108,5 +117,7 @@
     .our-team-header{
         text-align: center;
     }
-
+    .contact-content{
+        text-align: center;
+    }
 }
